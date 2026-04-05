@@ -6,17 +6,17 @@ class Docpler < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/docpler/docpler-cli/releases/download/cli-v0.1.0/docpler-aarch64-apple-darwin"
-      sha256 "6f571d7347e1db848864676d0fe84cd181d4dd9cea6506d564e366329aac7d11"
+      url "https://github.com/docpler/docpler-cli/releases/download/cli-v1.0.0/docpler-aarch64-apple-darwin"
+      sha256 "1be840ae63ae330a1aa9403c14ba9b480e550e395279724038d0eca4148efbea"
     else
-      url "https://github.com/docpler/docpler-cli/releases/download/cli-v0.1.0/docpler-x86_64-apple-darwin"
-      sha256 "c320aa5362a555653771a69869a7739c8813a7178ca9569974b94a8081858ae5"
+      url "https://github.com/docpler/docpler-cli/releases/download/cli-v1.0.0/docpler-x86_64-apple-darwin"
+      sha256 "5cebefb75a6e14854f41dde32dc322001871882a6fd8fc5aa05744f9bc50005c"
     end
   end
 
   on_linux do
-    url "https://github.com/docpler/docpler-cli/releases/download/cli-v0.1.0/docpler-x86_64-unknown-linux-gnu"
-    sha256 "92eb5af90a7d60f3eeeaeab1fd399f8c51467110856bea1b1c75d8c18de2a9ca"
+    url "https://github.com/docpler/docpler-cli/releases/download/cli-v1.0.0/docpler-x86_64-unknown-linux-gnu"
+    sha256 "9da0ca8fe8b9bb7f81547c90326631ee168b3ad6de06e4ceb5e69c8397bb935e"
   end
 
   def install
