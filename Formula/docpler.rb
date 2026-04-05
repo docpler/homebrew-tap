@@ -1,8 +1,8 @@
 class Docpler < Formula
   desc "Convert HWP (Korean word processor) documents to Markdown"
   homepage "https://github.com/docpler/docpler-cli"
-  version "0.1.0"
-  license "MIT"
+  version "1.0.0"
+  license "BSL-1.1"
 
   on_macos do
     if Hardware::CPU.arm?
